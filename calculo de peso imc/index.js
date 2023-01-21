@@ -5,9 +5,13 @@ let sobre = document.getElementById('isobr')
 let obeso = document.getElementById('iobes')
 let alt = document.querySelector('input#ialt')
 let peso = document.querySelector('input#ipeso')
+let item = document.getElementsByName('ntab')
+
+
 
 function calcular() {
     var imc = peso.value / (alt.value * alt.value)
+
 
     if (imc < 8.5) {
         abaixo.style.background = 'red'
@@ -22,4 +26,18 @@ function calcular() {
         obeso.style.background = 'red'
         obeso.style.color = 'white'
     }
+}
+
+
+
+
+function limpar() {
+    abaixo.style.background = ''
+    normal.style.background = ''
+    sobre.style.background = ''
+    obeso.style.background = ''
+    abaixo.style.color = 'black'
+    normal.style.color = 'black'
+    sobre.style.color = 'black'
+    obeso.style.color = 'black'
 }
