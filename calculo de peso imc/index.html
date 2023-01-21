@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo IMC</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Calcule seu <abbr title="Índice de Massa Corporal">IMC </abbr>aqui</h1>
+    </header>
+
+    <main>
+        <form action="#" method="get">
+            <p id="palt">
+                <label for="ialt" id="lalt">Digite sua altura:</label>
+                <input type="number" name="alt" id="ialt" placeholder="(m)">
+            </p>
+            <p>
+                <label for="ipeso">Digite seu peso atual:</label>
+                <input type="number" name="peso" id="ipeso" placeholder="(Kg)">
+            </p>
+            <p>
+                <input type="button" value="Calcular" id="bcalc" onclick="calcular()">
+                <input type="reset" value="Limpar" id="blimp">
+            </p>
+        </form>
+        <section>
+            <p>Seu IMC é:</p>
+        </section>
+        <section id="itabela">
+            <p id="iabai" class="tab">< 8,5: Abaixo do peso</p>
+            <p id="inorm" class="tab">8,5 a 24,9:  Peso normal</p>
+            <p id="isobr" class="tab">25 a 29,9:  Sobrepeso</p>
+            <p id="iobes" class="tab">> 29.9: Obesidade</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Daniel G. Arrivabene</p>
+    </footer>
+</body>
+</html>
