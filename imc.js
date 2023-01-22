@@ -12,6 +12,8 @@ item.style.background = 'red'
 function calcular() {
     var imc = peso.value / (alt.value * alt.value)
 
+    pimc.innerHTML = pimc.innerHTML + imc.toFixed(2)
+
     if (imc < 8.5) {
         abaixo.style.background = 'red'
         abaixo.style.color = 'white'
