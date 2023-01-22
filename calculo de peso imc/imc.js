@@ -5,13 +5,12 @@ let sobre = document.getElementById('isobr')
 let obeso = document.getElementById('iobes')
 let alt = document.querySelector('input#ialt')
 let peso = document.querySelector('input#ipeso')
-let item = document.getElementsByName('ntab')
+let pimc = document.querySelector('p#ipimc')
 
-
+item.style.background = 'red'
 
 function calcular() {
     var imc = peso.value / (alt.value * alt.value)
-
 
     if (imc < 8.5) {
         abaixo.style.background = 'red'
