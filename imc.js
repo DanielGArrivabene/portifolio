@@ -12,12 +12,12 @@ item.style.background = 'red'
 function calcular() {
     var imc = peso.value / (alt.value * alt.value)
 
-    pimc.innerHTML = pimc.innerHTML + imc.toFixed(2)
+    pimc.innerHTML = pimc.innerHTML + ' ' + imc.toFixed(2)
 
-    if (imc < 8.5) {
+    if (imc < 18.5) {
         abaixo.style.background = 'red'
         abaixo.style.color = 'white'
-    } else if (imc >= 8.5 && imc < 25) {
+    } else if (imc >= 18.5 && imc < 25) {
         normal.style.background = 'red'
         normal.style.color = 'white'
     } else if (imc >= 25 && imc < 30) {
