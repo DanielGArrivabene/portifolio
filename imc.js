@@ -15,15 +15,55 @@ function calcular() {
     pimc.innerHTML = pimc.innerHTML + ' ' + imc.toFixed(2)
 
     if (imc < 18.5) {
+
+        abaixo.style.background = ''
+        normal.style.background = ''
+        sobre.style.background = ''
+        obeso.style.background = ''
+        abaixo.style.color = 'black'
+        normal.style.color = 'black'
+        sobre.style.color = 'black'
+        obeso.style.color = 'black'
+
         abaixo.style.background = 'red'
         abaixo.style.color = 'white'
     } else if (imc >= 18.5 && imc < 25) {
+
+        abaixo.style.background = ''
+        normal.style.background = ''
+        sobre.style.background = ''
+        obeso.style.background = ''
+        abaixo.style.color = 'black'
+        normal.style.color = 'black'
+        sobre.style.color = 'black'
+        obeso.style.color = 'black'
+
         normal.style.background = 'red'
         normal.style.color = 'white'
     } else if (imc >= 25 && imc < 30) {
+
+        abaixo.style.background = ''
+        normal.style.background = ''
+        sobre.style.background = ''
+        obeso.style.background = ''
+        abaixo.style.color = 'black'
+        normal.style.color = 'black'
+        sobre.style.color = 'black'
+        obeso.style.color = 'black'
+
         sobre.style.background = 'red'
         sobre.style.color = 'white'
     } else if (imc >= 30) {
+
+        abaixo.style.background = ''
+        normal.style.background = ''
+        sobre.style.background = ''
+        obeso.style.background = ''
+        abaixo.style.color = 'black'
+        normal.style.color = 'black'
+        sobre.style.color = 'black'
+        obeso.style.color = 'black'
+
         obeso.style.background = 'red'
         obeso.style.color = 'white'
     }
