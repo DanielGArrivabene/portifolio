@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+p#p-header {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+section.contatos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-contatos {
+    width: 40px;
+    transform: translate(0px, 18px);
+}
+
+img#img-instagram {
+    width: 48px;
+}
+
+iframe#mapa {
+    height: 50vh;
+    width: 85vw;
+    margin: 10px;
+}
+
+section#fim {
+    text-align: center;
+}
+
