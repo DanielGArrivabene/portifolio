@@ -1,22 +1,48 @@
 @charset "UTF-8";
 
+
+:root {
+    --corFundo: #00BB00;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: var(--corFundo);
+}
+
 header {
     padding: 15px;
+    background-image: linear-gradient(180deg, #036B21,#03731E 5%, #00BB00 70%);
+    color: black;
+}
+
+main, 
+ footer {
+    width: 98vw;
+    background-color: white;
+    margin: auto;
+}
+
+footer {
+    border-radius: 0px 0px 20px 20px;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 9px;
+    color: rgb(227, 251, 223);
+    text-shadow: 0px 0px 7px black;
 }
 
 p#p-header {
     text-align: center;
+    text-shadow: 0px 0px 10px white;
 }
 
 h2 {
@@ -25,7 +51,11 @@ h2 {
 
 section.contatos {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 7px;
+}
+
+section#contatos {
+    padding-bottom: 30px;
 }
 
 .img-contatos {
@@ -45,5 +75,6 @@ iframe#mapa {
 
 section#fim {
     text-align: center;
+    text-shadow: 0px 0px 10px white;
 }
 
