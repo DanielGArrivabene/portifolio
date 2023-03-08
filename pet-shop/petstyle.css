@@ -9,7 +9,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -24,9 +24,56 @@ header {
 
 main, 
  footer {
-    width: 98vw;
+    width: 90vw;
     background-color: white;
     margin: auto;
+    padding: 10px;
+
+}
+
+main {
+    border-radius: 20px 20px 0px 0px;
+    text-align: justify;
+}
+
+main > p {
+    line-height: 20px;
+    font-size: 1.07em;
+}
+
+.div-img {
+    background-color: rgb(124, 253, 126);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.541);
+    width: 93.8vw;
+    height: 300px;
+    margin-left: -2.1%;
+    margin-top: -10px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+div#img1 {
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('midias/pexels-pixabay-160846.jpg');
+    background-attachment: scroll;
+}
+
+div#img2 {
+    background-image: url('midias/gato1.jpg');
+}
+
+div#img3 {
+    background-image: url('midias/pexels-marcelo-chagas-6682642.jpg');
+}
+
+div#img4 {
+    background-image: url('midias/filhotes1.jpg');
+}
+
+section {
+    background-color: rgb(245, 245, 245);
+    height: 150px;
 }
 
 footer {
@@ -49,12 +96,12 @@ h2 {
     text-align: center;
 }
 
-section.contatos {
+article.contatos {
     text-align: center;
     margin-bottom: 7px;
 }
 
-section#contatos {
+article#contatos {
     padding-bottom: 30px;
 }
 
@@ -73,8 +120,8 @@ iframe#mapa {
     margin: 10px;
 }
 
-section#fim {
+article#fim {
     text-align: center;
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 20px rgb(212, 255, 202);
 }
 
