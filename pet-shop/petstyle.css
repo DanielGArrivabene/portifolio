@@ -44,9 +44,11 @@ main > p {
 .div-img {
     background-color: rgb(124, 253, 126);
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.541);
-    width: 93.8vw;
+    width: calc(90vw + 20px);
+    padding: -10px;
     height: 300px;
-    margin-left: -2.1%;
+    margin: auto;
+    margin-left: -10px;
     margin-top: -10px;
     background-size: cover;
     background-attachment: fixed;
@@ -61,14 +63,21 @@ div#img1 {
 
 div#img2 {
     background-image: url('midias/gato1.jpg');
+    width: 91vw;
+    border-radius: 0px 10px 10px 0px;
 }
 
 div#img3 {
     background-image: url('midias/pexels-marcelo-chagas-6682642.jpg');
+    width: 91vw;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 5px;
 }
 
 div#img4 {
     background-image: url('midias/filhotes1.jpg');
+    width: 91vw;
+    border-radius: 0px 10px 10px 0px;
 }
 
 section {
